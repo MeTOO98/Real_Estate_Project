@@ -209,8 +209,6 @@ real-estate-etl/
 
 ## Data Model
 
-### Fact Table: `Core.Fact_Table`
-
 <img width="1357" height="587" alt="model" src="https://github.com/user-attachments/assets/f610c478-b189-427e-a939-5b912b1f2be2" />
 
 ## 📈 Visualization
