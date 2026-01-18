@@ -162,7 +162,7 @@ real-estate-etl/
 │   └── date.json                      # Last scrape timestamp
 │
 └── README.md
-``
+```
 
 ## Pipeline Stages
 
