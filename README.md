@@ -211,38 +211,6 @@ real-estate-etl/
 
 ### Fact Table: `Core.Fact_Table`
 
-| Column | Type | Description |
-|--------|------|-------------|
-| property_id | INT | Primary Key |
-| Price | VARCHAR(150) | Property price |
-| NumOfRooms | INT | Number of bedrooms |
-| NumofBathRooms | INT | Number of bathrooms |
-| Size | INT | Property size (sqm) |
-| Type | VARCHAR(150) | Property type |
-| completion_status | VARCHAR(150) | Ready/Off-plan |
-| Date_Id | VARCHAR(100) | Foreign Key to Dim_Date |
-| Location_id | INT | Foreign Key to Dim_Location |
-
-### Dimension Table: `Core.Dim_Date`
-
-| Column | Type | Description |
-|--------|------|-------------|
-| date_id | VARCHAR(100) | Primary Key |
-| date | VARCHAR(150) | Full date |
-| day | INT | Day of month |
-| Month | INT | Month number |
-| Year | INT | Year |
-
-### Dimension Table: `Core.Dim_Location`
-
-| Column | Type | Description |
-|--------|------|-------------|
-| Location_id | INT | Primary Key (Identity) |
-| Location | VARCHAR(250) | Full location string |
-| Compound | VARCHAR(250) | Compound name |
-| City | VARCHAR(250) | City name |
-| Gov | VARCHAR(250) | Governorate |
-
 <img width="1357" height="587" alt="model" src="https://github.com/user-attachments/assets/f610c478-b189-427e-a939-5b912b1f2be2" />
 
 ## 📈 Visualization
