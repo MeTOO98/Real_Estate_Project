@@ -9,15 +9,9 @@ A comprehensive ETL (Extract, Transform, Load) pipeline for scraping real estate
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
 - [Pipeline Stages](#pipeline-stages)
 - [Data Model](#data-model)
 - [Visualization](#visualization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
