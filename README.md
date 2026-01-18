@@ -15,7 +15,7 @@ A comprehensive ETL (Extract, Transform, Load) pipeline for scraping real estate
 
 ## Overview
 
-This project automates the extraction of real estate property data from Bayut.eg (focusing on New Cairo 5th Settlement and Sheikh Zayed areas), transforms it through multiple ETL stages using SSIS packages, and loads it into a dimensional data warehouse for analytics and visualization in Power BI.
+This project automates the extraction of real estate property data from Bayut.eg (focusing on 5th Settlement and Sheikh Zayed areas), transforms it through multiple ETL stages using SSIS packages, and loads it into a dimensional data warehouse for analytics and visualization in Power BI.
 
 The pipeline supports both **initial full load** and **incremental updates** to keep the data warehouse current.
 
