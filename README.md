@@ -256,17 +256,17 @@ The project includes a comprehensive Power BI dashboard for real estate market a
 
 The interactive dashboard provides:
 
-#### 📊 Key Metrics
+#### Key Metrics
 - **Number of Properties**: Total property count
 - **Average Price Per Meter**: Market rate analysis
 - **Total Market Value**: Aggregate market valuation
 
-#### 📍 Location Analysis
+#### Location Analysis
 - Filter by **Compound** (1st District, 2nd District, etc.)
 - Filter by **City** (5th Settlement, Sheikh Zayed)
 - Filter by **Property Type** (Apartment, Villa, Duplex, etc.)
 
-#### 📈 Market Insights
+#### Market Insights
 1. **Price Per Meter by Size Category and Type**
    - Line chart showing price trends across different property sizes
    - Segmented by property type (Apartment, Duplex, Penthouse, Townhouse)
