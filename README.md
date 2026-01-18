@@ -51,7 +51,14 @@ The pipeline supports both **initial full load** and **incremental updates** to 
           │                                           │
           └───────────────┬───────────────────────────┘
                           │
-                          ▼
+        ┌────────────────────────────────────┐
+        │  SSIS Package (load to sql server) |    
+        │  ┌──────────────────────────────┐  │
+        │  │ . Raw Data Load              │  │  
+        │  └──────────────────────────────┘  │
+        └────────────────┬───────────────────┘
+                         │
+                         ▼           
                 ┌──────────────────┐
                 │  SQL Server      │
                 │  (Raw Data)      │
@@ -61,10 +68,9 @@ The pipeline supports both **initial full load** and **incremental updates** to 
         ┌────────────────────────────────────┐
         │  SSIS Transformation Packages      │
         │  ┌──────────────────────────────┐  │
-        │  │ 1. Raw Data Load             │  │
-        │  │ 2. First Step Transformation │  │
-        │  │ 3. Second Step Transformation│  │
-        │  │ 4. Final Transformation      │  │
+        │  │ 1. First Step Transformation │  │
+        │  │ 2. Second Step Transformation│  │
+        │  │ 3. Final Transformation      │  │
         │  └──────────────────────────────┘  │
         └────────────────┬───────────────────┘
                          │
