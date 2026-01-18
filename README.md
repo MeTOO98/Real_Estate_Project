@@ -96,7 +96,7 @@ The pipeline supports both **initial full load** and **incremental updates** to 
 - **Automated Web Scraping**: Selenium-based scraping from Bayut.eg
 - **Dual Load Modes**: 
   - Initial full load for first-time setup
-  - Incremental load for daily updates
+  - Incremental load for weekly updates
 - **Docker Containerization**: Isolated scraping environment
 - **Orchestration**: Apache Airflow for workflow management
 - **ETL Processing**: Multi-stage SSIS packages for data transformation
