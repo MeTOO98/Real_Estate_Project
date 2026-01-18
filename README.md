@@ -22,6 +22,8 @@ The pipeline supports both **initial full load** and **incremental updates** to 
 ## Architecture
 
 <img width="2573" height="382" alt="arc_image" src="https://github.com/user-attachments/assets/64cd042b-3a6d-40fb-bf3d-91c97d286ffc" />
+
+
 ```
 ┌─────────────────┐
 │  Bayut.eg       │
