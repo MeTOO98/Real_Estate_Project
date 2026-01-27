@@ -1,4 +1,4 @@
--- first i will create a database and this database will be its name Real_State
+-- first i will create a database and this database will be its name Real_EState
 create database Real_EState
 GO
 
