@@ -8,7 +8,6 @@ A comprehensive ETL (Extract, Transform, Load) pipeline for scraping real estate
 - [Architecture](#architecture)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
 - [Pipeline Stages](#pipeline-stages)
 - [Data Model](#data-model)
 - [Visualization](#visualization)
@@ -124,45 +123,6 @@ The pipeline supports both **initial full load** and **incremental updates** to 
 
 ### Visualization
 - **Power BI**: Business intelligence and reporting
-
-## 📁 Project Structure
-
-```
-real-estate-etl/
-│
-├── airflow/
-│   ├── Inc_Real_EState_ETL.py         # Incremental load DAG
-│   └── Real_EState_ETL.py             # Initial load DAG
-│
-├── scraping/
-│   ├── Get_Data_From_Bayut.py         # Initial scraping script
-│   ├── increm_scraping.py             # Incremental scraping script
-│   └── Dockerfile                      # Docker configuration
-│
-├── sql/
-│   ├── raw_datasql.sql                # Raw data schema
-│   └── core_layer.sql                 # Dimensional model schema
-│
-├── ssis/
-│   ├── initial_load/
-│   │   ├── Load_raw_data.dtsx
-│   │   ├── First_Step.dtsx
-│   │   ├── Second_Step.dtsx
-│   │   └── Truncate_tables.dtsx
-│   │
-│   └── incremental_load/
-│       ├── Raw_Package.dtsx
-│       ├── ETL.dtsx
-│       ├── Package.dtsx
-│       └── Package.dtsx (final)
-│
-├── data/
-│   ├── bayut_raw.csv                  # Initial load output
-│   ├── inc_bayut_raw.csv              # Incremental load output
-│   └── date.json                      # Last scrape timestamp
-│
-└── README.md
-```
 
 ## Pipeline Stages
 
