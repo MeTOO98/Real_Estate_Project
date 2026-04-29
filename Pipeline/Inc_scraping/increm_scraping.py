@@ -44,7 +44,7 @@ def main_task():
     
     last_date=load_last_date("/app/date.json")
 
-    # Let Selenium find chromedriver automatically or use your path
+    # Let Selenium find chromedriver automatically or use The path
     try:
         driver = webdriver.Chrome(options=options)
     except:
