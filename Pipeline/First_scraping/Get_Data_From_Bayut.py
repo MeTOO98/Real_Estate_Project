@@ -26,7 +26,7 @@ def main_task():
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
-    # Let Selenium find chromedriver automatically or use your path
+    # Let Selenium find chromedriver automatically or use The path
     try:
         driver = webdriver.Chrome(options=options)
     except:
